@@ -1,10 +1,10 @@
 --------------------------------------------------------------------------------
 
-# MSM4SR: A Multimodal Pre-training Framework for Sequential Recommendation
+# Multimodal Pre-training for Sequential Recommendation via Contrastive Learning
 
 --------------------------------------------------------------------------------
 
-#### This code repository is for paper \#7690.
+#### This code repository is for paper \#3086.
 
 --------------------------------------------------------------------------------
 
@@ -37,6 +37,7 @@ Pre-train MSM4SR from scratch:
 ```bash
 CUDA_VISIBLE_DEVICES=1 python run_recbole.py --gpu_id=1 --dataset=pantry --model=MSM4SR --train_stage=pretrain --num_imgtokens=15 --learning_rate=0.001 --train_batch_size=1024 --lambda=0.01 --proj=False
 ```
+
 The output is a pre-trained checkpoint named as {MSM4SR-Date-Time} saved in the folder './saved/'. \
 --lambda is used to balance Modality-specific Next Item Prediction loss (NIP) and Cross Modality Contrastive Loss
 (CMCL). 
