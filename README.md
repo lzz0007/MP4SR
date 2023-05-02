@@ -1,8 +1,5 @@
---------------------------------------------------------------------------------
-
 # Multimodal Pre-training for Sequential Recommendation via Contrastive Learning
 
---------------------------------------------------------------------------------
 
 #### This code repository is for paper \#3086.
 
@@ -17,8 +14,10 @@ pip install -r requirements.txt
 
 --------------------------------------------------------------------------------
 ### Dataset Preparation
-Due to the limit on the appendix file size, we can't attach all datasets in this package. \
-Hence, we provide a subset of Pantry dataset under './dataset/pantry/'. 
+Due to the space limit on the google drive folders, we can't attach all datasets in this package. \
+Hence, we provide the Pantry dataset, which can be downloaded from [Link](https://drive.google.com/drive/folders/1dUoj5nPqhLXR1DoLHBgwWvkcsbjnIXdh?usp=share_link). 
+We will provide the other two datasets once the paper is published. 
+After downloading the dataset, please put them under './dataset/pantry/'.
 
 For example, the complete dataset folder structure of Pantry is as follows:
 ```
