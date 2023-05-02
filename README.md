@@ -5,7 +5,7 @@
 
 
 
-### Installation
+## Installation
 We first need to create a python=3.7 virtualenv and activate it.\
 Then, we install some dependencies.
 ```bash
@@ -13,7 +13,7 @@ pip install -r requirements.txt
 ```
 
 
-### Dataset Preparation
+## Dataset Preparation
 Due to the space limit on the google drive folders, we can't attach all datasets in this package. \
 Hence, we provide the Pantry dataset, which can be downloaded from [Link](https://drive.google.com/drive/folders/1dUoj5nPqhLXR1DoLHBgwWvkcsbjnIXdh?usp=share_link). 
 We will provide the other two datasets once the paper is published. 
@@ -28,7 +28,7 @@ dataset/pantry
 ```
 "15" refers to the number of image word tokens. By default, the number of image word tokens is 15.
 
-
+## Training MSM4SR
 Our proposed method is a two stage framework. Hence, we need to first run *pre-training* and then run *fine-tuning* on the same dataset.
 
 ### Pre-training
