@@ -1,6 +1,3 @@
-# @Time   : 2020/9/23
-# @Author : Xingyu Pan
-# @Email  : panxingyu@ruc.edu.cn
 
 """
 recbole.data.kg_seq_dataset

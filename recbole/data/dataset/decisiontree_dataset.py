@@ -1,6 +1,3 @@
-# @Time   : 2020/12/17
-# @Author : Chen Yang
-# @Email  : 254170321@qq.com
 
 """
 recbole.data.decisiontree_dataset

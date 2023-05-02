@@ -1,11 +1,3 @@
-# @Time   : 2020/9/16
-# @Author : Yushuo Chen
-# @Email  : chenyushuo@ruc.edu.cn
-
-# UPDATE:
-# @Time   : 2020/9/16, 2021/7/1, 2021/7/11
-# @Author : Yushuo Chen, Xingyu Pan, Yupeng Hou
-# @Email  : chenyushuo@ruc.edu.cn, xy_pan@foxmail.com, houyupeng@ruc.edu.cn
 
 """
 recbole.data.sequential_dataset

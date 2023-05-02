@@ -1,13 +1,3 @@
-# @Time   : 2020/6/26
-# @Author : Shanlei Mu
-# @Email  : slmu@ruc.edu.cn
-
-# UPDATE:
-# @Time   : 2020/8/7, 2021/12/22
-# @Author : Shanlei Mu, Gaowei Zhang
-# @Email  : slmu@ruc.edu.cn, 1462034631@qq.com
-
-
 """
 recbole.model.loss
 #######################

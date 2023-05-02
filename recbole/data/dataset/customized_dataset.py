@@ -1,12 +1,3 @@
-# @Time   : 2020/10/19
-# @Author : Yupeng Hou
-# @Email  : houyupeng@ruc.edu.cn
-
-# UPDATE
-# @Time   : 2021/7/9
-# @Author : Yupeng Hou
-# @Email  : houyupeng@ruc.edu.cn
-
 """
 recbole.data.customized_dataset
 ##################################

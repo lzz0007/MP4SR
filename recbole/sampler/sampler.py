@@ -1,12 +1,3 @@
-# -*- coding: utf-8 -*-
-# @Author : Yupeng Hou
-# @Email  : houyupeng@ruc.edu.cn
-# @File   : sampler.py
-
-# UPDATE
-# @Time   : 2021/7/23, 2020/8/31, 2020/10/6, 2020/9/18, 2021/3/19
-# @Author : Xingyu Pan, Kaiyuan Li, Yupeng Hou, Yushuo Chen, Zhichao Feng
-# @email  : xy_pan@foxmail.com, tsotfsk@outlook.com, houyupeng@ruc.edu.cn, chenyushuo@ruc.edu.cn, fzcbupt@gmail.com
 
 """
 recbole.sampler
