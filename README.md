@@ -41,6 +41,7 @@ CUDA_VISIBLE_DEVICES=1 python run_recbole.py --gpu_id=1 --dataset=pantry --model
 The output is a pre-trained checkpoint named as {MSM4SR-Date-Time} saved in the folder './saved/'. \
 --lambda is used to balance Modality-specific Next Item Prediction loss (NIP) and Cross Modality Contrastive Loss
 (CMCL). 
+
 --------------------------------------------------------------------------------
 ### Fine-tuning
 1. Find the pre-trained checkpoint file name from the .log file or './saved/' folder. For example, the checkpoint file is named as 'MSM4SR-Aug-18-2022_19-38-01.pth'.
