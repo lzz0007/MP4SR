@@ -56,4 +56,4 @@ The training log file is written under './log/'. \
 python run_hyper.py --dataset=pantry --model=MSM4SR --train_stage='finetune' --num_imgtokens=15 --pretrained_path='./saved/MSM4SR-Aug-18-2022_19-38-01.pth' --output_file='./log_tune/pantry.result' --params_file=hyper.test
 ```
 --output_file specifies the output directory of the hyper-parameter tuning results. \
---params_file defines the search space for hyper-parameter tuning.# MSM4SR
+--params_file defines the search space for hyper-parameter tuning.
