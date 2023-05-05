@@ -73,7 +73,7 @@ class AttnLayer(nn.Module):
         return result
 
 
-class MSM4SR(SASRec):
+class MP4SR(SASRec):
     def __init__(self, config, dataset):
         super().__init__(config, dataset)
 
