@@ -66,4 +66,4 @@ If you find this repo useful, please cite
 }
 ```
 ### Acknowledgement
-The implementation is based on the UniSRec and the open-source recommendation library RecBole.
+The implementation is based on the [UniSRec](https://github.com/RUCAIBox/UniSRec) and the open-source recommendation library RecBole.
