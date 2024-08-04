@@ -57,13 +57,13 @@ python run_hyper.py --dataset=pantry --model=MP4SR --train_stage='finetune' --nu
 
 ### Cite
 If you find this repo useful, please cite
-
+```bibtex
 @article{zhang2023multimodal,
   title={Multimodal pre-training framework for sequential recommendation via contrastive learning},
   author={Zhang, Lingzi and Zhou, Xin and Zeng, Zhiwei and Shen, Zhiqi},
   journal={arXiv preprint arXiv:2303.11879},
   year={2023}
 }
-
+```
 ### Acknowledgement
 The implementation is based on the UniSRec and the open-source recommendation library RecBole.
