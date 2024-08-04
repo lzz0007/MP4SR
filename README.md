@@ -1,10 +1,5 @@
 # Multimodal Pre-training for Sequential Recommendation via Contrastive Learning
 
-
-#### This code repository is for paper \#3086.
-
-
-
 ## Installation
 We first need to create a python=3.7 virtualenv and activate it.\
 Then, we install some dependencies.
@@ -53,7 +48,22 @@ The training log file is written under './log/'. \
 
 2. Or, we could fine-tune with pre-trained model for full sets of hyper-parameters:
 ```bash
+
+
 python run_hyper.py --dataset=pantry --model=MP4SR --train_stage='finetune' --num_imgtokens=15 --pretrained_path='./saved/MP4SR-Aug-18-2022_19-38-01.pth' --output_file='./log_tune/pantry.result' --params_file=hyper.test
 ```
 --output_file specifies the output directory of the hyper-parameter tuning results. \
 --params_file defines the search space for hyper-parameter tuning.
+
+### Cite
+If you find this repo useful, please cite
+
+@article{zhang2023multimodal,
+  title={Multimodal pre-training framework for sequential recommendation via contrastive learning},
+  author={Zhang, Lingzi and Zhou, Xin and Zeng, Zhiwei and Shen, Zhiqi},
+  journal={arXiv preprint arXiv:2303.11879},
+  year={2023}
+}
+
+### Acknowledgement
+The implementation is based on the UniSRec and the open-source recommendation library RecBole.
